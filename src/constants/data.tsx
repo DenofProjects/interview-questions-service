@@ -90,7 +90,9 @@ export const data = [
 
   {
     question: "Internal working of stream functions",
-    answer: "https://theboreddev.com/understanding-java-streams/",
+    answer:
+      "https://theboreddev.com/understanding-java-streams/ " +
+      "and : https://medium.com/@palivela.chaitu/java-streams-394274a2bd72",
   },
   {
     question: "difference between hashmap and concurrenthashmap",
@@ -139,7 +141,8 @@ export const data = [
     question: "What is pure function ?",
     answer:
       "It should not modify any outside data or shold not modify any state." +
-      "Its behaviour should not depend on any outside data. It can only depend on input arguments.",
+      "Its behaviour should not depend on any outside data. It can only depend on input arguments."
+      + "https://www.geeksforgeeks.org/pure-functions-in-javascript/",
   },
   {
     question: "What is functional interface ?",
@@ -147,7 +150,8 @@ export const data = [
       "The interface which have only one abstract method defined." +
       "it can have any number of static and default methods. but only one abstract method. By default all methods are default in interfaces." +
       "we add @FunctionalInterface annotation on the top of interface to just avoid that by mistake noone can write any other abstract method in " +
-      "the interface, by adding annoation it will give compile time error if other abstract method is in the class.",
+      "the interface, by adding annoation it will give compile time error if other abstract method is in the class."
+      + "https://www.geeksforgeeks.org/functional-interfaces-java/",
   },
   {
     question: "What is predicate ?",
@@ -157,76 +161,101 @@ export const data = [
       " static are : isEqual(Object o), not(Prediacate<T t>) , Watch More : https://www.youtube.com/watch?v=KMV15nx8H9s&list=PL3hpmQhMoz-dMhvnkTunjOMZSa_f3FH24&index=11",
   },
   {
-    question: "",
-    answer: "",
+    question:
+      "Difference Between Method Overloading and Method Overriding in Java",
+    answer:
+      "Method Overriding is a Run time polymorphism. In method overriding, the derived class provides the specific implementation of the method that is already provided by the base class or parent class. In method overriding, the return type must be the same or co-variant (return type may vary in the same direction as the derived class). " +
+      "for more : https://www.geeksforgeeks.org/difference-between-method-overloading-and-method-overriding-in-java/",
   },
   {
-    question: "",
-    answer: "",
+    question:
+      "Difference between Compile-time and Run-time Polymorphism in Java",
+    answer:
+      "https://www.geeksforgeeks.org/difference-between-compile-time-and-run-time-polymorphism-in-java/",
   },
   {
-    question: "",
-    answer: "",
+    question: "overloading which paradigm",
+    answer: "NA",
   },
   {
-    question: "",
-    answer: "",
+    question:
+      "Difference Between Serializable and Externalizable in Java Serialization",
+    answer:
+      "The process of writing the state of an object to a file is called serialization, but strictly speaking, it is the process of converting an object from java supported form into a file-supported form or network-supported form by using fileOutputStream and objectOutputStream classes we can implement serialization. " +
+      "But we can serialize only serializable objects. An object is said to be serializable if and only if the corresponding class implements a Serializable interface. Serializable interface is present in java.io package, and it doesn’t contain any method and hence it is a marker interface. If we are trying to serializable a non-serializable object then we will get Runtime Exception saying notSerializableException. " +
+      "for more : https://www.geeksforgeeks.org/difference-between-serializable-and-externalizable-in-java-serialization/",
   },
   {
-    question: "",
-    answer: "",
+    question: "Difference between Serialization and Externalization in Java",
+    answer:
+      "Serialization and externalization both are the processes of converting an object to stream byte and storing byte stream in database or memory. The class which implements java.io.Serializable interface can be serialized. On the other hand, externalization used for custom serialization based on the requirement in the application. Externalization extends java.io.Serializable. " +
+      "https://www.tutorialspoint.com/difference-between-serialization-and-externalization-in-java",
   },
   {
-    question: "",
-    answer: "",
+    question: "Can we declare an abstract method final or static in java?",
+    answer:
+      "If you declare a method in a class abstract to use it, you must override this method in the subclass. But, overriding is not possible with static methods. Therefore, an abstract method cannot be static." +
+      "https://www.tutorialspoint.com/can-we-declare-an-abstract-method-final-or-static-in-java#:~:text=Declaring%20abstract%20method%20static,abstract%20method%20cannot%20be%20static.",
   },
   {
-    question: "",
-    answer: "",
+    question: "Can Abstract Classes Have Static Methods in Java?",
+    answer:
+      "https://www.javatpoint.com/can-abstract-classes-have-static-methods-in-java",
   },
   {
-    question: "",
-    answer: "",
+    question:
+      "Difference between default and static interface method in Java 8.",
+    answer:
+      "Default methods enable you to add new functionality to the interfaces of your libraries and ensure binary compatibility with code written for older versions of those interfaces.A static method is a method that is associated with the class in which it is defined rather than with any object." +
+      "https://www.tutorialspoint.com/difference-between-default-and-static-interface-method-in-java-8#:~:text=Default%20methods%20enable%20you%20to,rather%20than%20with%20any%20object.",
   },
   {
-    question: "",
-    answer: "",
+    question:
+      "why abstract class if interface is like abstract class after java 8",
+    answer:
+      "https://javaconceptoftheday.com/interface-vs-abstract-class-after-java-8/",
   },
   {
-    question: "",
-    answer: "",
+    question: "Spring Conditional Annotations",
+    answer: "https://www.baeldung.com/spring-conditional-annotations",
   },
   {
-    question: "",
-    answer: "",
+    question: "Java – @Target Annotations",
+    answer: "https://www.geeksforgeeks.org/java-target-annotations/",
   },
   {
-    question: "",
-    answer: "",
+    question: "what is controller advice",
+    answer: "https://www.scaler.com/topics/spring-boot/controller-advice/",
   },
   {
-    question: "",
-    answer: "",
+    question: "Difference between PUT and POST HTTP requests",
+    answer:
+      "PUT and POST requests have lots of similarities certainly when making an HTTP request and both can be meddled with so that one performs the functions of the other. This article revolves around the major differences between PUT and POST Requests." +
+      "https://www.geeksforgeeks.org/diffrence-between-put-and-post-http-requests/",
   },
   {
-    question: "",
-    answer: "",
+    question: "Introduction to Generic Trees (N-ary Trees)",
+    answer:
+      "Generic trees are a collection of nodes where each node is a data structure that consists of records and a list of references to its children(duplicate references are not allowed). Unlike the linked list, each node stores the address of multiple nodes. Every node stores address of its children and the very first node’s address will be stored in a separate pointer called root." +
+      " https://www.geeksforgeeks.org/generic-treesn-array-trees/",
   },
   {
-    question: "",
-    answer: "",
+    question: "Designing a Payment System",
+    answer:
+      "https://newsletter.pragmaticengineer.com/p/designing-a-payment-system",
   },
   {
-    question: "",
-    answer: "",
+    question: "what is native query",
+    answer: " a SQL statement that is specific to a particular database (e.g. MySQL),"
+      + "  https://www.geeksforgeeks.org/spring-boot-jpa-native-query-with-example/",
   },
   {
-    question: "",
-    answer: "",
+    question: "Spring Boot – Transaction Management Using @Transactional Annotation",
+    answer: "https://www.geeksforgeeks.org/spring-boot-transaction-management-using-transactional-annotation/",
   },
   {
-    question: "",
-    answer: "",
+    question: "how should we stop a stream, if we keep getting it. ",
+    answer: "https://www.baeldung.com/java-break-stream-foreach",
   },
   {
     question: "",

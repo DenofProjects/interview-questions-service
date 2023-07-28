@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { mapDispatchToProps, mapStateToProps } from "../viewConnectors/vcMain";
 import { data } from "../constants/data";
 import "./../style/main.css";
+import LinkParser from "./LinkParser";
 
 interface MainViewProps {
   readonly mainState: any;
@@ -11,7 +12,7 @@ interface MainViewProps {
 }
 
 class Main extends React.Component<MainViewProps> {
-  componentDidMount() {}
+  componentDidMount() { }
   render() {
     return (
       <React.Fragment>
@@ -21,7 +22,7 @@ class Main extends React.Component<MainViewProps> {
             {data.map((item, index) => (
               <div key={index} className="question-card">
                 <div className="question">{item.question}</div>
-                <div className="answer">{item.answer}</div>
+                <div className="answer"><LinkParser text={item.answer} /></div>
               </div>
             ))}
           </div>
