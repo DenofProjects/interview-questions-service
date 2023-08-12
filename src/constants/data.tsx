@@ -60,7 +60,8 @@ export const data = [
       "4. Session" +
       "5. Global-Session" +
       " " +
-      "read more : https://www.tutorialspoint.com/spring/spring_bean_scopes.htm",
+      "read more : https://www.tutorialspoint.com/spring/spring_bean_scopes.htm"
+      + " youtube links : https://www.youtube.com/watch?v=FuFGBHAW3gQ, https://www.youtube.com/watch?v=Zx9iYwQqaPg, https://www.youtube.com/watch?v=YTxDobzfFeg",
   },
 
   {
@@ -258,12 +259,128 @@ export const data = [
     answer: "https://www.baeldung.com/java-break-stream-foreach",
   },
   {
-    question: "",
-    answer: "",
+    question: "Diff b/w Treemap and Hashmap",
+    answer: "https://www.geeksforgeeks.org/hashmap-treemap-java/ , youtube link : https://www.youtube.com/watch?v=ecQJCRBxabY, https://www.youtube.com/watch?v=2eBFyiuA36w",
   },
   {
-    question: "",
-    answer: "",
+    question: "Difference Between UNION and UNION ALL",
+    answer: "UNION and UNION ALL in SQL are used to retrieve data from two or more tables. UNION returns distinct records from both the table, while UNION ALL returns all the records from both the tables. In this article, we will explore the difference between UNION and UNION ALL. "
+      + "https://www.shiksha.com/online-courses/articles/difference-between-union-and-union-all/"
+      + ", youtube links : https://www.youtube.com/watch?v=JZdtgPaPP_A",
+  },
+  {
+    question: "callable and runnable interface",
+    answer: "java.lang.Runnable is an interface that is to be implemented by a class whose instances are intended to be executed by a thread. There are two ways to start a new Thread – Subclass Thread and implement Runnable. There is no need of sub-classing Thread when a task can be done by overriding only run() method of Runnable."
+      + "https://www.geeksforgeeks.org/difference-between-callable-and-runnable-in-java/"
+      + ", youtube links : https://www.youtube.com/watch?v=8fEjTZj1mOM,  https://www.youtube.com/watch?v=G0kQBUvCDbs",
+  },
+  {
+    question: "Two way binding (React)",
+    answer: "React is a fascinating library of JavaScript that simplifies creating frontend and user interface. One of the important aspects is how it binds data with the UI components. Data binding in React can be done through declared variables, props and state. It gives us the flexibility to synchronize both the data as well as UI. " +
+      "youtube links : https://www.youtube.com/watch?v=55WGjyT8TLw, blog link: https://legacy.reactjs.org/docs/two-way-binding-helpers.html,  https://handsontable.com/blog/understanding-data-binding-in-react",
+  },
+  {
+    question: "Pojo vs Bean vs spring bean difference",
+    answer: "POJO classes and Beans both are used to define java objects to increase their readability and reusability. POJOs don’t have other restrictions while beans are special POJOs with some restrictions."
+      + "link : https://www.geeksforgeeks.org/pojo-vs-java-beans/, youtube links : https://www.youtube.com/watch?v=Er69xXR0Xlg, https://www.youtube.com/watch?v=lQ3svlKjs70",
+  },
+  {
+    question: "final finally finallize",
+    answer: "youtube links : https://www.youtube.com/watch?v=9B0Miy4_o8o, https://www.youtube.com/watch?v=RLInHtq9j2w  blog link : https://www.javatpoint.com/difference-between-final-finally-and-finalize",
+  },
+  {
+    question: "is Java is Pass by Value, Not Pass by Reference",
+    answer: "Technically, Java is always pass by value, because even though a variable might hold a reference to an object, that object reference is a value that represents the object’s location in memory. Object references are therefore passed by value."
+      + " Both reference data types and primitive data types are passed by value."
+      + "https://www.digitalocean.com/community/tutorials/java-is-pass-by-value-and-not-pass-by-reference"
+      + "youtube links : https://www.youtube.com/watch?v=w4sGl3HxgZw, https://www.youtube.com/watch?v=vt9juFfNq9M, https://www.youtube.com/watch?v=ywOMwJbSAlM (code example)",
+  },
+  {
+    question: "What is marker interface.",
+    answer: "have body, but no methods , youtube links: https://www.youtube.com/watch?v=fRu_Mc9rEYg, https://www.youtube.com/watch?v=cDqBat4tuek(both are for Creating custom Marker interface)"
+      + ", https://www.youtube.com/watch?v=qeGCxKCWFcQ, blog link : https://www.geeksforgeeks.org/marker-interface-java/ , https://codepumpkin.com/marker-interface-interview-questions/",
+  },
+  {
+    question: "can we define static in markup interface, scenerio to use markup interface",
+    answer: "yes, as per interviewer, need to research more",
+  },
+  {
+    question: "Ds used by hashset treeset",
+    answer: "https://www.youtube.com/watch?v=E6VGISKKSdQ, blog : https://www.javatpoint.com/hashset-vs-treeset-java",
+  },
+  {
+    question: "Spring – Understanding Inversion of Control with Example",
+    answer: "Spring IoC (Inversion of Control) Container is the core of Spring Framework. It creates the objects, configures and assembles their dependencies, manages their entire life cycle. The Container uses Dependency Injection(DI) to manage the components that make up the application. "
+      + "https://www.geeksforgeeks.org/spring-understanding-inversion-of-control-with-example/"
+      + "youtube link : https://www.youtube.com/watch?v=DQI66PNtyk8",
+  },
+  {
+    question: "Spring framework hindi youtube link ",
+    answer: "https://www.youtube.com/watch?v=KRMNTudb0AY&list=PL0zysOflRCekeiERASkpi-crREVensZGS",
+  },
+  {
+    question: "we have two ioc and one  bean, how many object",
+    answer: "two objects will be created, as two iocs are there.",
+  },
+  {
+    question: "@transiant annotation./ @Transient Annotation vs. transient Keyword",
+    answer: "When persisting Java objects into database records using an Object-Relational Mapping (ORM) framework, we often want to ignore certain fields. If the framework is compliant with the Java Persistence API (JPA), we can add the @Transient annotation to these fields. In this tutorial, we will demonstrate proper usage of the @Transient annotation. We will also look at its relationship with Java's built-in transient keyword."
+      + "blog : https://www.baeldung.com/jpa-transient-ignore-field"
+      + "youtube link : https://www.youtube.com/watch?v=lM1_fMTU_kM (annotation), https://www.youtube.com/watch?v=Wlr4Pt8X318 (keyword)",
+  },
+  {
+    question: "spring AOP(Aspect Oriented Programming)",
+    answer: "Aspect-Oriented Programming (AOP) is one of the key elements of the Spring Framework. AOP praises Object-Oriented Programming in such a way that it also provides modularity. But the key point of modularity is the aspect than the class. AOP breaks the program logic into separate parts called concerns. "
+      + "https://www.youtube.com/watch?v=9Y5-q0DvhRA&list=PL5mjp3QjkuoLQyAmAYgSALsDDHmjyLxbC"
+      + "blog :  https://www.simplilearn.com/tutorials/spring-tutorial/spring-aop-aspect-oriented-programming#:~:text=Aspect%2DOriented%20Programming%20(AOP),into%20separate%20parts%20called%20concerns.",
+  },
+  {
+    question: "default skope of a bean",
+    answer: "The default scope for the bean is a singleton.",
+  },
+  {
+    question: "string, string builder string buffer",
+    answer: "https://www.digitalocean.com/community/tutorials/string-vs-stringbuffer-vs-stringbuilder"
+      + "youtube links : https://www.youtube.com/watch?v=_m04SPTU4N0, https://www.youtube.com/watch?v=GnpEm89Y0fg&list=PLd3UqWTnYXOlrdBwt2DTnF3u3W-1Kozk0 (durga sir playlist)",
+  },
+
+  {
+    question: "Which memory is used in String, String Builder, String Buffer",
+    answer: "TO BE RESEARCH",
+  },
+  {
+    question: "what is web container?",
+    answer: "As per interviewer it is server like tomcat which deals with servlet"
+      + " => But , A web container is the component of a web server that interacts with Java servlets. A web container manages the life cycle of servlets; it maps a URL to a particular servlet while ensuring that the requester has relevant access-rights."
+      + "https://www.educative.io/answers/what-is-a-web-container, youtube link : https://www.youtube.com/watch?v=VI0lp5ZUooc",
+  },
+  {
+    question: "where request will come and first point of contact",
+    answer: "TO be confirmed,but may be dispatcher servlet",
+  },
+  {
+    question: "What is Dispatcher Servlet in Spring?",
+    answer: "Spring is one of the most popular Java EE frameworks. It is an open-source lightweight framework that allows Java EE 7 developers to build simple, reliable, and scalable enterprise applications. This framework mainly focuses on providing various ways to help you manage your business objects. It made the development of Web applications much easier than compared to classic Java frameworks and application programming interfaces (APIs), such as Java database connectivity (JDBC), JavaServer Pages(JSP), and Java Servlet. This framework uses various new techniques such as Aspect-Oriented Programming (AOP), Plain Old Java Object (POJO), and dependency injection (DI), to develop enterprise applications. Now we are going to discuss one of the most important concepts in the Spring framework e.g Dispatcher Servlet."
+      + "youtbue links : https://www.youtube.com/watch?v=DL3tQNj7j1M, https://www.youtube.com/watch?v=AzI7E81TBfc(code example)"
+      + "blog links : https://www.geeksforgeeks.org/what-is-dispatcher-servlet-in-spring/",
+  },
+  {
+    question: "own exception class / Custom Exception /own exception will be checked or unchecked?",
+    answer: "https://www.javatpoint.com/custom-exception, https://www.geeksforgeeks.org/user-defined-custom-exception-in-java/, https://www.baeldung.com/java-new-custom-exception"
+      + "youtube links : https://www.youtube.com/watch?v=V_jVp6WdW0Y, https://www.youtube.com/watch?v=ojQADu2IJ54",
+  },
+  {
+    question: "The Celebrity Problem",
+    answer: "https://www.geeksforgeeks.org/the-celebrity-problem/",
+  },
+  {
+    question: "6 jars haiving candies, 5 jars have candies of 1g, one jar has 0.5 gm candies, you have a digital weight. How many minimum tries are needed to find the defective jar.",
+    answer: "https://www.geeksforgeeks.org/puzzle-7-find-the-jar-with-contaminated-pills/",
+  },
+
+  {
+    question: "Robot Bounded In Circle",
+    answer: "https://leetcode.com/problems/robot-bounded-in-circle/",
   },
   {
     question: "",
