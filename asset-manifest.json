@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/interview-questions-service/static/css/main.fc08fb9b.css",
+    "main.js": "/interview-questions-service/static/js/main.ca53e7d2.js",
+    "index.html": "/interview-questions-service/index.html",
+    "main.fc08fb9b.css.map": "/interview-questions-service/static/css/main.fc08fb9b.css.map",
+    "main.ca53e7d2.js.map": "/interview-questions-service/static/js/main.ca53e7d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc08fb9b.css",
+    "static/js/main.ca53e7d2.js"
+  ]
+}
