@@ -383,20 +383,47 @@ export const data = [
     answer: "https://leetcode.com/problems/robot-bounded-in-circle/",
   },
   {
-    question: "",
-    answer: "",
+    question: "Diff between HashTable and HashMap",
+    answer: "HashMap is non-syncronized and is not thread safe while HashTable is thread safe and is synchronized. => " +
+
+      "HashMap allows one null key and values can be null whereas HashTable doesnt allow null key or value. => " +
+
+      "HashMap is faster than HashTable. => " +
+
+      "HashMap iterator is fail-safe where HashTable iterator is not fail-safe. => " +
+
+      "HashMap extends AbstractMap class where HashTable extends Dictionary class. => "
+      + "https://www.tutorialspoint.com/Difference-between-HashMap-and-HashTable-in-Java#:~:text=HashMap%20is%20non%2Dsyncronized%20and,iterator%20is%20not%20fail%2Dsafe."
+      + "youtube links : https://www.youtube.com/watch?v=VOAETfbOWv0",
   },
   {
-    question: "",
-    answer: "",
+    question: "Diff between Optional.of and Optional.ofNullable ",
+    answer: "of will take only non null values and ofNullale can handle null values by returning Optional.empty()"
+      + "https://medium.com/@navnathujadhav/understanding-the-difference-between-of-and-ofnullable-in-javas-optional-class-a8f4950d1fd9",
   },
   {
-    question: "",
-    answer: "",
+    question: "Intermiediate and Terminal operations ",
+    answer: "Intermedieate operation are where stream functions return stream object and terminal is when function return non stream values "
+      + " like list, void etc. intermediate values are lazy it calculates value when terminal functions are found by jvm."
+      + " youtube : https://www.youtube.com/watch?v=4Djjbha6c3Y",
   },
   {
-    question: "",
-    answer: "",
+    question: "producer , consumer, supplier function by function.",
+    answer: "Youtube : https://www.youtube.com/watch?v=Tapz6_T5oHY",
+  },
+  {
+    question: "Diff arraylist and linked lilst.",
+    answer: "https://www.geeksforgeeks.org/difference-between-list-and-arraylist-in-java/",
+  },
+  {
+    question: "What is concurrency and how we can we resolve.",
+    answer: "Concurrency is the execution of the multiple instruction sequences at the same time. It happens in the operating system when there are several process threads running in parallel. The running process threads always communicate with each other through shared memory or message passing."
+      + "blog link : https://www.geeksforgeeks.org/concurrency-in-operating-system/ , youtube : ",
+  },
+  {
+    question: "What is deadlock and how we can resolve this.",
+    answer: "Deadlock is a situation where a process or a set of processes is blocked, waiting for some other resource that is held by some other waiting process. It is an undesirable state of the system. The following are the four conditions that must hold simultaneously for a deadlock to occur. youtube  : https://www.youtube.com/watch?v=B4IVu-2hCos"
+    +"blog : https://www.geeksforgeeks.org/handling-deadlocks/",
   },
   {
     question: "",
